@@ -22,3 +22,5 @@ with open(ihrm_report_path, 'wb') as f:
     runner = HTMLTestRunner(f, verbosity=2, title="IHRM人力资源管理系统", description="这是使用HTMLTestRunner_PY3生成的报告")
     # 使用实例化的htmltestrunner运行测试套件
     runner.run(suite)
+
+print("测试修改代码后，会不会触发轮循构建")
